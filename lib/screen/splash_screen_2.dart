@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fluttersebelumujian/screen/splash_screen_3.dart';
 
 class SplashScreen2 extends StatelessWidget {
   const SplashScreen2({super.key});
@@ -32,7 +33,7 @@ class SplashScreen2 extends StatelessWidget {
               ),
               const SizedBox(height: 30), //spasi
               const Text(
-                "Saya Adalah Banteng Paling tangguh di Seluruh Jagat Raya",
+                "Saya Adalah Makanan paling enak di Seluruh Jagat Raya",
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 20,
@@ -81,6 +82,12 @@ class SplashScreen2 extends StatelessWidget {
                   child: ElevatedButton(
                     onPressed: () {
                       // Aksi ketika tombol ditekan
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const SplashScreen3(),
+                        ),
+                      );
                     },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.greenAccent,

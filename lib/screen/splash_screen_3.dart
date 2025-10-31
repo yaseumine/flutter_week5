@@ -20,7 +20,7 @@ class SplashScreen3 extends StatelessWidget {
                   shape: BoxShape.circle,
                   color: Colors.amber,
                   image: const DecorationImage(
-                    image: AssetImage('images/assets/images1.jpg'),
+                    image: AssetImage('images/assets/images3.gif'),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -32,7 +32,7 @@ class SplashScreen3 extends StatelessWidget {
               ),
               const SizedBox(height: 30), //spasi
               const Text(
-                "Saya Adalah Banteng Paling tangguh di Seluruh Jagat Raya",
+                "Saya Adalah Beruang Paling imut di Seluruh Jagat Raya",
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 20,
@@ -67,7 +67,7 @@ class SplashScreen3 extends StatelessWidget {
                     height: 10,
                     decoration: const BoxDecoration(
                       shape: BoxShape.circle,
-                      color: Color(0xFF84a98c),
+                      color: Colors.deepPurple,
                     ),
                   ),
                 ],
