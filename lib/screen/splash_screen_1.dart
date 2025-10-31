@@ -23,6 +23,20 @@ class SplashScreen1 extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(height: 20), //spasi
+            Text(
+              'Selamat Datang',
+              style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+            ),
+            SizedBox(height: 30), //spasi
+            Text(
+              "Saya Adalah Banteng Paling tangguh di Seluruh Jagat Raya",
+              style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.normal,
+                color: Colors.green,
+              ),
+            ),
           ],
         ),
       ),
