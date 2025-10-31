@@ -72,6 +72,7 @@ class SplashScreen1 extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             Container(
+              margin: EdgeInsets.only(left: 30, right: 30),
               child: SizedBox(
                 height: 40,
                 width: double.infinity,
